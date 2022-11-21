@@ -1,0 +1,151 @@
+.container00 {
+  &.containerFalcon1 {
+    background-image: url(../../images/falcon9/01.jpg);
+  }
+  &.containerFalcon2 {
+    background-image: url(../../images/falcon9/02.jpg);
+  }
+  &.carousel01 {
+    background-image: url(../../images/falcon9/03.jpg);
+  }
+  &.carousel02 {
+    background-image: url(../../images/falcon9/04.jpg);
+  }
+  &.carousel03 {
+    background-image: url(../../images/falcon9/05.jpg);
+  }
+  &.carousel04 {
+    background-image: url(../../images/falcon9/06.jpg);
+  }
+  &.carousel05 {
+    background-image: url(../../images/falcon9/07.jpg);
+  }
+  &.containerFalcon3 {
+    background-image: url(../../images/falcon9/08.jpg);
+  }
+}
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+}
+.titleFalcon9 {
+  font-size: 90px !important;
+  font-weight: bold !important;
+}
+.numbers {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px !important;
+}
+.titleNum {
+  font-size: 90px !important;
+}
+.subTitleNum {
+  font-size: 20px;
+}
+.Falcon9Description {
+  font-size: 22px;
+  width: 640px;
+  line-height: 50px;
+}
+.contF9Description {
+  display: grid;
+  height: 80vh;
+  flex-direction: column;
+  justify-content: left;
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+.carouselSlide {
+  img {
+    height: 100vh;
+  }
+}
+.carouselText {
+  background-color: black;
+}
+.downloadDescription {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+}
+a {
+  text-decoration: none;
+  color: $copy-color;
+
+  &:hover {
+    color: $link-hover;
+  }
+}
+button {
+  display: flex;
+  border: 2px solid white;
+  margin-right: 20px !important;
+}
+#widthTable {
+  color: $table-item;
+}
+//media query
+@media (max-width: 770px) {
+  .Falcon9Description {
+    width: auto;
+  }
+  .numbers {
+    .titleNumb {
+      font-size: 75px;
+    }
+    .subTitleNum {
+      font-size: 15px;
+    }
+  }
+}
+@media (max-width: 670px) {
+  #overViewPosition {
+    width: auto;
+    margin-left: 0%;
+    justify-content: center;
+  }
+  .Falcon9Description {
+    text-align: center;
+  }
+}
+@media (max-width: 575px) {
+  .numbers {
+    height: 60vh;
+  }
+  button {
+    margin-top: 20px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #overViewPosition {
+    width: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 370px) {
+  .titleFalcon9 {
+    font-size: 70px !important;
+  }
+  .Falcon9Description {
+    font-size: 20px;
+  }
+  .titleNum {
+    font-size: 50px !important;
+    padding-top: 50px;
+  }
+  .numbers {
+    font-size: 15px !important;
+  }
+}

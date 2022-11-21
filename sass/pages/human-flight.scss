@@ -1,0 +1,107 @@
+.container00 {
+  &.containerHuman1 {
+    background-image: url(../../images/humanFlight/01.jpg);
+  }
+  &.containerHuman2 {
+    background-image: url(../../images/humanFlight/02.jpg);
+  }
+  &.containerHuman3 {
+    background-image: url(../../images/humanFlight/03.jpg);
+  }
+  &.containerHuman4 {
+    background-image: url(../../images/humanFlight/04.jpg);
+  }
+  &.containerHuman5 {
+    background-image: url(../../images/humanFlight/05.jpg);
+  }
+}
+.titleHF {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 90vh;
+}
+.titleHFHuman {
+  font-weight: bold;
+  font-size: 100px;
+  letter-spacing: 9px;
+}
+.arrowDownHuman {
+  width: 100px;
+  height: auto;
+  padding-top: 40px;
+}
+.contactText {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#humanPositionRight {
+  width: 600px;
+  margin-right: 15%;
+  padding-top: 20%;
+}
+#humanPositionLeft {
+  width: 600px;
+  margin-left: 10%;
+  padding-top: 20%;
+}
+.titleHuman {
+  font-weight: bold;
+  font-size: 60px;
+  flex-wrap: wrap;
+}
+.subTitleHuman {
+  font-size: 20px;
+  flex-wrap: wrap;
+}
+.buttonHuman {
+  margin-top: 45px !important;
+}
+
+//media query
+
+@media (max-width: 630px) {
+  .titleHFHuman {
+    font-weight: bold;
+    font-size: 80px;
+    letter-spacing: 5px;
+  }
+  .subTitleHuman {
+    font-size: 15px;
+  }
+  .titleHuman {
+    font-weight: bold;
+    font-size: 40px;
+    flex-wrap: wrap;
+  }
+  .subTitleHuman {
+    font-size: 15px;
+    flex-wrap: wrap;
+  }
+  #humanPositionRight {
+    width: 600px;
+    margin-right: 0%;
+    padding-top: 20%;
+  }
+  #humanPositionLeft {
+    width: auto;
+    margin-left: 0%;
+    padding-top: 15%;
+  }
+}
+@media (max-width: 575px) {
+  .humanText {
+    font-size: 15px;
+  }
+}
+@media (max-width: 340px) {
+  .titleHFHuman {
+    font-size: 70px;
+  }
+  .humanText {
+    font-size: 15px;
+  }
+}
